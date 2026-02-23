@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои любимые цитаты</title>
+    <style>
+        @import url('fonts/main_font.css');
+
+        * {
+            margin: 0;
+            font-family: 'StratosSkyeng', sans-serif;
+        }
+
+        .content {
+            background-size: cover;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .center {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .back-btn, .next-btn {
+            padding: 15px 30px;
+            background-color: #6c5ce7;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 18px;
+            position: absolute;
+            top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-btn:hover, .next-btn:hover {
+            background-color: #5a4ca6;
+        }
+
+        .back-btn {
+            left: 20px;
+        }
+
+        .next-btn {
+            right: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 40px 0 30px 0;
+            font-size: 36px;
+            color: #333;
+        }
+
+        
+        .quotes-list {
+            list-style-type: disc; 
+            margin-top: 30px; 
+            padding-left: 30px; 
+            line-height: 1.8; 
+        }
+
+        .quotes-list li {
+            margin-bottom: 20px; 
+            font-size: 22px; 
+            color: #444; 
+            text-indent: -10px; 
+        }
+
+        .quotes-list li::before {
+            content: "«"; 
+            margin-right: 5px; 
+            font-size: 22px; 
+        }
+
+        .quotes-list li::after {
+            content: "»"; 
+            margin-left: 5px; 
+            font-size: 22px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        
+        <a href="facts.html" class="back-btn">← Назад</a>
+
+        
+        <a href="index.html" class="next-btn">На главную >>>></a>
+
+        <div class="center">
+            <h1>Мои любимые цитаты</h1>
+
+            <ul class="quotes-list">
+                <li>Я счастлива по умолчанию. Пожалуйста, не лезьте в настройки</li>
+                <li>Пришла домой, смотрю пыль лежит. Думаю, дай‑ка и я прилягу</li>
+                <li>Мне столько всего нужно сделать, что лучше я пойду спать</li>
+                <li>Упорный труд никого не убил, но зачем рисковать?</li>
+                <li>Купила чай для похудения. Ничего так, с тортиком идет</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Крутые факты обо мне</title>
+    <style>
+        @import url('fonts/main_font.css');
+
+        * {
+            margin: 0;
+            font-family: 'StratosSkyeng', sans-serif;
+        }
+
+        .content {
+            background-size: cover;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .center {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .back-btn, .next-btn {
+            padding: 15px 30px;
+            background-color: #6c5ce7;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 18px;
+            position: absolute;
+            top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-btn:hover, .next-btn:hover {
+            background-color: #5a4ca6;
+        }
+
+        .back-btn {
+            left: 20px;
+        }
+
+        .next-btn {
+            right: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 40px 0 30px 0;
+            font-size: 36px;
+            color: #333;
+        }
+
+        .fact {
+            background-color: #f9f9f9;
+            border-left: 4px solid #6c5ce7;
+            padding: 15px 20px;
+            margin-bottom: 25px;
+            border-radius: 0 8px 8px 0;
+            line-height: 1.7;
+            font-size: 20px;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        
+        <a href="index.html" class="back-btn">← Назад</a>
+
+        
+        <a href="memes.html" class="next-btn">Следующая страница >>>></a>
+
+        <div class="center">
+            <h1>Крутые факты обо мне</h1>
+
+            <div class="fact">
+                Я умею программировать на HTML/CSS и понемногу изучаю JavaScript.
+            </div>
+
+            <div class="fact">
+                Мой любимый цвет - фиолетовый, поэтому кнопки именно такие.
+            </div>
+
+            <div class="fact">
+                Я обожаю мемы про животных (гуси,коты и т.д).
+            </div>
+
+            <div class="fact">
+                Мечтаю создать свою игру в Роблоксе.
+            </div>
+
+            <div class="fact">
+                В свободное время занимаюсь английскийм.
+            </div>
+        </div>
+    </div>
+</body>
+</html>

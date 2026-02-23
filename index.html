@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Крутая личная страница</title>
+    <style>
+        @import url('fonts/main_font.css');
+
+        * {
+            margin: 0;
+            font-family: 'StratosSkyeng', sans-serif;
+        }
+
+        .content {
+            background-size: cover;
+            min-height: 100vh;
+        }
+
+        .in-one-line {
+            display: flex;
+            gap: 32px;
+        }
+
+        .center {
+            padding-left: calc(50% - 500px);  
+            padding-right: calc(50% - 500px);
+        }
+
+        .profile-img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 32px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 24px;
+        }
+
+        .intro {
+            text-align: left;
+            line-height: 2.0;
+            margin-bottom: 50px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        
+        .highlighted-text {
+            font-size: 28px;      
+            font-weight: 700;     
+            color: #222;          
+            margin: 0 0 20px 0;  
+            display: block;        
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 30px;
+            line-height: 2.2;
+            font-size: 22px;
+            margin-top: 0; 
+        }
+
+        .nav-btn {
+            padding: 25px 60px;
+            background-color: #6c5ce7;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 22px;
+            position: absolute;
+            top: 30px;
+            right: 60px;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-btn:hover {
+            background-color: #5a4ca6;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="center">
+            <a href="facts.html" class="nav-btn">Следующая страница>>>></a>
+
+            <h1>Крутая личная страница</h1>
+            <h2>Супер мена</h2>
+
+            <img
+                src="images/goose.jpeg"
+                alt="Крутая картинка профиля гуся Василия"
+                class="profile-img"
+                width="400"
+                height="300">
+
+            <div class="intro">
+                Привет. Это мой проект по изучению фронта, и в нём я хочу рассказать о себе крутые факты и потренировать мой код стайл.
+            </div>
+
+            
+            <p class="highlighted-text">На страничках ты найдёшь:</p>
+
+            <ul>
+                <li>Крутые факты обо мне</li>
+                <li>Мои любимые мемы</li>
+                <li>Мои любимые цитаты</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
